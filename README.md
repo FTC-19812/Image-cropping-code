@@ -21,4 +21,4 @@ A very mogus repository that is sponsored by Mogus Corp.
 ⢷⣶⣤⣀⠉⠉⠉⠉⠉⠄⠀⠀⠀⠀⠈⣿⣆⡀⠀⠀⠀⠀⠀⠀⢀⣠⣴⡾⠃⠀
 ⠀⠈⠉⠛⠿⣶⣦⣄⣀⠀⠀⠀⠀⠀⠀⠈⠛⠻⢿⣿⣾⣿⡿⠿⠟⠋⠁⠀⠀⠀
 This message was paid for by Mogus Corp.
-(There is actually image cropping code here)
+(There is actually image cropping code here, it is not just a mogus shrine)
