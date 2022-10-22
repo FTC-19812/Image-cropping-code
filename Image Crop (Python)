@@ -23,11 +23,12 @@ for infile in sys.argv[1:]:
 		[315 + xfudge,5 + yfudge,0,0],
 		[285 + xfudge,5 + yfudge,0,0]
 		]
-		#(left,upper,right,lower) 
+		#(left,upper,right,lower)
+		# sets cropping area
 	brightnesses = [0.8,0.9,1.0,1.1,1.2]
 	#crops multiple copies of an image to enable the best results for tensorflow
 	print('working on file;' + infile)
-	#tells you it is working on a files
+	#tells you it is working on a file
 	with Image.open(infile)as img:
 		for crop in crops:
 			crop[2] = crop[0] + width
@@ -47,3 +48,5 @@ for infile in sys.argv[1:]:
 #https://www.geeksforgeeks.org/python-pil-image-crop-method/
 #https://www.tutorialspoint.com/python_pillow/index.htm
 #https://pillow.readthedocs.io/en/stable/handbook/tutorial.html
+
+#This code was paid for by Mogus Corp.
