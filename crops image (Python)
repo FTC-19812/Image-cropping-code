@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-#Do not remove top; this must be run in linux terminal
+#Do not remove 1st line; this must be run in linux terminal
 # infile is the name of the file
 # run file is "~/Desktop/imagecrop.py *.jpg"
 from PIL import Image, ImageEnhance
 import sys
-# imports necessary image package
+# imports necessary image packages
 imgnum = 1
 #enables you to crop multiple images
 width = 250
@@ -13,7 +13,7 @@ height = 380
 # REMIND CODING PPL IT MUST BE THIS SIZE
 xfudge = 0
 yfudge = 100
-#height and width varies based on what you want to crop
+#height and width added varies based on what size you want to crop
 #is measured by pixels
 for infile in sys.argv[1:]:
 	crops = [
